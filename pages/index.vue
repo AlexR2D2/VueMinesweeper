@@ -1,5 +1,5 @@
 <template>
-  <section class="flex justify-center pv7 f2">
+  <section class="flex justify-center pv7">
     <hello/>
   </section>
 </template>
