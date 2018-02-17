@@ -19,9 +19,10 @@
     <transition name="fade">
       <div v-if="infoVisible" class="relative popup noselect" v-on-click-outside.static="closeInfo">
         <div class="absolute shadow-4 overflow-y-auto w-100 pv3 bg-white flex flex-column items-center courier">
+          <div class="pa3 gray f4 ttu tracked measure-wide">MINESWEEPER</div>
           <div class="pa3 gray">Build with <a href="https://nuxtjs.org" class="link underline-hover blue" target="_blank">Nuxt.js</a> framework</div>
-          <div class="pa3 gray">CSS framework is <a href="http://tachyons.io" class="link underline-hover blue" target="_blank">Tachyons</a></div>
-          <div class="pa3 gray">The source code in <a href="https://github.com/AlexR2D2/vue_portfolio_01" class="link underline-hover blue" target="_blank">GitHub</a></div>
+          <div class="pa3 gray"><a href="http://tachyons.io" class="link underline-hover blue" target="_blank">Tachyons</a> css framework</div>
+          <div class="pa3 gray">Source code on <a href="https://github.com/AlexR2D2/vue_portfolio_01" class="link underline-hover blue" target="_blank">GitHub</a></div>
           <div class="pa3 gray">MIT License</div>
         </div>
       </div>
@@ -29,6 +30,7 @@
     <transition name="fade">
       <div v-if="settingsVisible" class="relative popup noselect" v-on-click-outside.static="closeSettings">
         <div class="absolute shadow-4 overflow-y-auto w-100 pt3 bg-white flex flex-column sans-serif">
+          <configuration class="pa3 bg-near-white" :columns="columns" :rows="rows" :mines="mines"></configuration>
           <div class="ma3 flex justify-start items-center courier">
             <span class="w4">COLUMNS</span>
             <number-input v-model="columns" :min="minColumns" :max="maxColumns" @valid="columnsValid = $event"></number-input>
@@ -41,8 +43,7 @@
             <span class="w4">MINES</span>
             <number-input v-model="mines" :min="minMines" :max="maxMines" @valid="minesValid = $event"></number-input>
           </div>
-          <configuration class="pa3 bg-near-white" :columns="columns" :rows="rows" :mines="mines"></configuration>
-          <div class="flex items-center justify-center white pv3 dim"
+          <div class="flex items-center justify-center white pv3 mt2 dim"
             :class="[inputValid ? 'bg-green pointer' : 'bg-silver']"
             @click.prevent="apply">
             apply
