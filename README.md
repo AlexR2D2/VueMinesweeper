@@ -1,4 +1,4 @@
-# portfolio_01
+# Minesweeper
 
 > Minesweeper Nuxt.js project
 
