@@ -20,6 +20,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
   },
+  /*
+  ** Customize the CSS
+  */
   css: [
     'tachyons/css/tachyons.min.css',
     '~assets/index.css',
@@ -46,5 +49,14 @@ module.exports = {
       }
     }
   },
+  /*
+  ** Customize the plugins
+  */
+  plugins: [
+    { src: '~plugins/ya.js', ssr: false }
+  ],
+  /*
+  ** Make router relative to /vue_portfolio_01
+  */
   ...routerBase,
 }
