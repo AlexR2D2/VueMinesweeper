@@ -22,6 +22,7 @@ module.exports = {
   },
   css: [
     'tachyons/css/tachyons.min.css',
+    '~assets/index.css',
   ],
   /*
   ** Customize the progress bar color
