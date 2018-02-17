@@ -115,6 +115,7 @@
         if (val) this.infoVisible = false
       },
       infoVisible (val, old) {
+        this.$emit('is-open', val)
         if (val) this.settingsVisible = false
       }
     },
