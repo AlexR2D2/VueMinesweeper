@@ -132,7 +132,7 @@ function defaultSettings () {
     minRows: 3,
     maxRows: 20,
     minMines: 2,
-    maxMinesPersent: 0.9
+    maxMinesPercent: 0.9
   } 
 }
 

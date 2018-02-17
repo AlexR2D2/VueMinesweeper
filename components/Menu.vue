@@ -101,7 +101,7 @@
 
     computed: {
       maxMines () { 
-        return Math.round(this.columns * this.rows * this.$store.getters.defaultSettings.maxMinesPersent)
+        return Math.round(this.columns * this.rows * this.$store.getters.defaultSettings.maxMinesPercent)
       },
       inputValid () {
         return this.columnsValid && this.rowsValid && this.minesValid
