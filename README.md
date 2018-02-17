@@ -1,6 +1,8 @@
 # portfolio_01
 
-> Nuxt.js project
+> Minesweeper Nuxt.js project
+
+Online [Demo](https://alexr2d2.github.io/vue_portfolio_01/)
 
 ## Build Setup
 
