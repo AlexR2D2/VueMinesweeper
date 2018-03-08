@@ -22,7 +22,7 @@
           <div class="pa3 gray f4 ttu tracked measure-wide">MINESWEEPER</div>
           <div class="pa3 gray">Build with <a href="https://nuxtjs.org" class="link underline-hover blue" target="_blank">Nuxt.js</a> framework</div>
           <div class="pa3 gray"><a href="http://tachyons.io" class="link underline-hover blue" target="_blank">Tachyons</a> css framework</div>
-          <div class="pa3 gray">Source code on <a href="https://github.com/AlexR2D2/vue_portfolio_01" class="link underline-hover blue" target="_blank">GitHub</a></div>
+          <div class="pa3 gray">Source code on <a href="https://github.com/AlexR2D2/VueMinesweeper" class="link underline-hover blue" target="_blank">GitHub</a></div>
           <div class="pa3 gray">MIT License</div>
         </div>
       </div>
