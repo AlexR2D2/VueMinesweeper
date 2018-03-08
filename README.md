@@ -2,7 +2,7 @@
 
 > Minesweeper Nuxt.js project
 
-Online [Demo](https://alexr2d2.github.io/vue_portfolio_01/)
+Online [Demo](https://alexr2d2.github.io/VueMinesweeper/)
 
 ## Build Setup
 
