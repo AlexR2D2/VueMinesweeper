@@ -53,7 +53,7 @@ module.exports = {
   ** Customize the plugins
   */
   plugins: [
-    { src: '~plugins/ya.js', ssr: false }
+    { src: '~/plugins/ya.js', ssr: false }
   ],
   /*
   ** Make router relative to /vue_portfolio_01
